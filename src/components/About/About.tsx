@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import Avinasha from "../../assets/profile-abhi.png";
+import Avinasha2 from "../../assets/profile-abhi.png";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -90,7 +90,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={Avinasha} alt="Avinasha" />
+          <img src={Avinasha2} alt="Avinasha" />
         </ScrollAnimation>
       </div>
     </Container>
