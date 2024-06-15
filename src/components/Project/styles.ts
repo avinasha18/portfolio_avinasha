@@ -41,6 +41,7 @@ export const Container = styled.section`
           display: flex;
           align-items: center;
           gap: 1rem;
+
         }
         a > img {
           width: 5.0rem;
@@ -88,5 +89,19 @@ export const Container = styled.section`
     .projects{
       grid-template-columns: 1fr;
     }
+  }
+    @media (max-width: 524px){
+    .project{
+      width : 100%;
+    }
+      header {
+         width : 100%;
+      }
+      .body p {
+      }
+      footer .tech-list {
+        display : flex;
+        flex-wrap : wrap;
+      }
   }
 `
