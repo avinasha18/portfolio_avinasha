@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import Avinasha from "../../assets/profilepicabhi.png";
+import Avinasha from "../../assets/profile-abhi.png";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
