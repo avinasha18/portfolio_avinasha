@@ -14,7 +14,7 @@ import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 // import vueIcon from "../../assets/vue-icon.svg";
-import nextjsIcon from '../../assets/nextjs.svg'
+import nextjsIcon from '../../assets/nextjsw.svg'
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 
 export function Main() {
