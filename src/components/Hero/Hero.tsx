@@ -1,5 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
+import { TypeAnimation } from 'react-type-animation';
+
 import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
@@ -12,10 +14,24 @@ export function Hero() {
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
+          <p>Hello <img src={Hello} alt="Hello" width="20px"/></p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Tejassri Avinasha Ryali</h1>
+          {/* <h1>Tejassri Avinasha Ryali</h1> */}
+          <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'I am Tejassri Avinasha Ryali',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'I am a Full Stack Developer',
+        1000
+       
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '3em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Full Stack Developer</h3>
