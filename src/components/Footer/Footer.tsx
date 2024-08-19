@@ -10,8 +10,8 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="https://avinasha.in" className="logo">
-        <span>www.avinasha</span>
-        <span>.in</span>
+        <span>portfolio-avinasha</span>
+        <span>.vercel.app</span>
       </a>
       <div>
         <p>
